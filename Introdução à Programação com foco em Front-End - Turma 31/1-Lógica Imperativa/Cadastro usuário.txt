@@ -1,0 +1,28 @@
+
+var 
+
+nome: caractere
+endereco: caractere
+cidade: caractere
+cpf:inteiro
+rg:inteiro
+
+
+Inicio
+
+ 
+escreva("DIGITE SEU NOME: ")
+leia(nome)
+escreve(“O seu nome é:”, nome)
+escreva("DIGITE SEU ENDEREÇO: ")
+leia(endereco)
+escreve(“O seu endereço é:”, endereço)
+escreva("DIGITE SUA CIDADE: ")
+leia(cidade)
+escreve(“A sua cidade é:”, cidade)
+escreva("DIGITE SEU CPF: ")
+leia(cpf)
+escreve(“O seu CPF é:”, cpf)
+escreva("DIGITE SEU RG: ")
+leia(rg)	
+escreve(“O seu RG é:”, rg)

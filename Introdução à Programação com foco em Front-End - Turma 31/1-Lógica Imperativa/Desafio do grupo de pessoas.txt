@@ -1,0 +1,33 @@
+Var
+
+fumanteOuPet: logico
+numPessoas:Inteiro
+
+
+Inicio
+
+escreva ("Existe algum fumante ou animal de estimação no seu grupo?")
+
+leia (fumantesOuPet)
+
+se (fumantesOuPet == verdadeiro) entao
+
+escreva ("Gentileza, dirijam-se à área externa")
+
+senao
+
+escreva ("Quantas pessoas têm no seu grupo?")
+
+leia (numPessoas)
+
+se (numPessoas >= 5) entao
+
+escreva ("Gentileza, dirijam-se ao 1º andar")
+
+senao
+
+escreva ("Gentileza, permaneçam no térreo")
+
+fimse
+
+Fimalgoritmo

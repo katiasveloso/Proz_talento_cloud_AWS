@@ -1,0 +1,20 @@
+var
+    nomeEquipe: caractere
+    contador:inteiro
+início
+  
+escreva ("Qual é o nome da sua equipe?")
+
+leia (nomeEquipe)
+
+contador <- 1
+
+enquanto (contador <= 5) faca
+
+escreval (nomeEquipe, " - ", contador)
+
+contador <- contador + 1
+
+fimenquanto
+
+Fimalgoritmo
