@@ -9,18 +9,7 @@ Acesse o site OneCompiler (https://onecompiler.com/javascript/), copie e cole o 
 
 numerosDaSorte = [37, 14, 26, 5, 94, 87]  
 
-X é par e menor que 50
+![alt text](image-3.png)
 
-![alt text](image.png)
-
-********************************************************
- X é menor que 50
-
-![alt text](image-1.png)
-
-********************************************************
-X é maior que 50
-
-![alt text](image-2.png)
 
 
