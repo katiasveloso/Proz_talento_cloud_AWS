@@ -35,10 +35,6 @@ Usando os conceitos aprendidos nesse módulo, e sem alterar o arquivo index.html
 
 ```javascript
 
-let tituloProduto = document.createElement('h1');
-tituloProduto.innerHTML = 'Produtos: ';
-document.body.appendChild(tituloProduto);
-
 let produto1 = document.createElement('div');
 produto1.innerHTML = `
     <img src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B48141/02_accordes_des_colonia_ambiente.jpg" width="200">
@@ -50,13 +46,12 @@ document.body.appendChild(produto1);
 
 let produto2 = document.createElement('div');
 produto2.innerHTML = `
-    <img src="https://cdn.awsli.com.br/2500x2500/1960/1960866/produto/230640574/grupo-de-2-objetoscamiseta-verde-1b9zonq7gu.jpg" width="200">
-    <h2>Camiseta Verde</h2>
-    <p>Camiseta De Poliester Verde </br></p>
-    <p>Preço: R$ 39,99</p>
+    <img src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B59555/001da8fe-17b1-419a-bf46-d7ab9f6bed4d-bot-59555-her-code-touch-edp-frontal-01.jpg" width="200">
+    <h2>Her Code </h2>
+    <p>Touch Eau De Parfum 50ml </br></p>
+    <p>Preço: R$ 199,90</p>
 `;
 document.body.appendChild(produto2);
-
 ```
 
 [Clique para acessar o arquivo JavaScript](script.js)
@@ -65,4 +60,4 @@ document.body.appendChild(produto2);
 
 <!-- Imagem -->
 
-![Resultado](resultado_exercicio.png)
+![Resultado](image.png)
