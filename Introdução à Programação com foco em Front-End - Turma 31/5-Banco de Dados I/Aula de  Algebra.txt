@@ -1,0 +1,78 @@
+Consultas: Select
+• Filmes lançados em 1968
+• Filmes com ranking menor do que 5
+• Diretor com nome Stanley
+• Atrizes do género femenino (‘F’)
+• Atrizes do género femenino (‘F’) com nome ‘Anne’
+• Atores do género masculino (‘M’) com sobrenome ‘Campbell’
+
+σ year = 2021 (movies)
+σ genre = 'Drama' (movies_genres)
+σ year ≤ 1990 ∧ rank ≥ 8 (movies)
+
+σ year = 1968 (movies)
+σ rank < 5 (movies)
+σ first_name = 'Stanley'(directors)
+σ gender = 'F' (actors)
+σ gender = 'F' ∧ first_name = 'Anne' (actors)
+σ gender = 'M' ∧ last_name = 'Campbell' (actors)
+*****************************************************************
+Consultas: Project
+• ID e sobrenome dos diretores
+• Sobrenome e gênero dos atores
+• Nome e ranking dos filmes anteriores ao ano de 1970
+• Nome e sobrenome das atrizes do gênero feminino
+• Nome e ano dos filmes com ranking maior ou igual do que 7.5
+
+
+
+π name, rank σ rank ≥ 8.5 (movies)
+
+π id, last_name (directors)
+π last_name, gender (actors)
+π name, rank σ year < 1970 (movies)
+π first_name, last_name σ gender = 'F' (actors) 
+π name, year σ rank ≥ 7.5 (movies)
+
+*****************************************************************
+Consultas: Operações matemáticas União inner join 
+• Filmes lançados no ano de 1981, e filmes com ranking de 8.7
+• Atores do gênero masculino e nome ‘William’, e atores do gênero masculino e sobrenome 
+‘Armstrong’
+• Atores do gênero masculino e sobrenome ‘Lloyd’, e atrizes de gênero feminino e nome 
+‘Emily’
+• Filmes lançados antes do ano 1960 com ranking maior do que 8.5, e filmes lançados 
+depois do ano 2000 com ranking menor do que 7.5
+
+
+σ year = 1981 (movies)
+∪
+σ rank = 8.7 (movies)
+
+σ gender = 'M' ∧ first_name = 'William' (actors)
+∪
+σ gender = 'M' ∧ last_name = 'Armstrong' (actors)
+
+
+
+
+σ gender = 'M' ∧ first_name = 'Lloyd' (actors)
+∪
+σ gender = 'F' ∧ first_name = 'Emily' (actors)
+
+
+σ year < 1960 ∧ rank > 8.5 (movies)
+∪
+σ year > 2000 ∧ rank < 7.5 (movies)
+
+
+
+
+
+
+
+
+
+
+
+
