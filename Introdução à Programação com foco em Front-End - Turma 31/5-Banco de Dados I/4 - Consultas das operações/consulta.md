@@ -1,6 +1,6 @@
 ## Linguagens formais de consulta a bancos de dados
-## Álgebra relacional
-## Cálculo relacional
+
+# Álgebra relacional e Cálculo relacional
 
 
 ### Instruções do projeto
@@ -16,7 +16,7 @@ De acordo com os conceitos estudados, exiba os resultados das consultas das oper
 - Exiba o resultado da intersecção entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR;
 - Exiba o resultado da diferença entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR. 
 
-![Tabela](tabela.png)
+![Tabela](Aluno1.png)
 
 - Mostre as informações apenas dos alunos aprovados. A aprovação é acima de 7,0;
 
@@ -45,7 +45,7 @@ De acordo com os conceitos estudados, exiba os resultados das consultas das oper
 
 - Crie uma tabela ALUNO com o primeiro e o último nome de cada;
 
-![Tabela Aluno](aluno.png)
+![Tabela Aluno](Aluno.png)
 
 - Mostre o resultado da união entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR;
 
