@@ -23,7 +23,7 @@ De acordo com os conceitos estudados, exiba os resultados das consultas das oper
 
 π_(PNome) (σ_(Nota > 7.0) (ALUNO))
 
-![Resultado](image-1.png)
+![alt text](image-3.png)
 
 
 - Exiba as informações dos alunos do primeiro ano com nota maior ou igual a 8,0;
@@ -31,13 +31,13 @@ De acordo com os conceitos estudados, exiba os resultados das consultas das oper
 
 σ P.aluno ∧ serie = '1ºano' ∧  >= 8.0 (aluno) 
 
-![Resultado ](image.png) 
+![alt text](image-4.png)
 
 - Exiba apenas os nomes e as notas dos alunos;
 
 σ P.aluno  ∧ notas (aluno)
 
-![Resultado](image-2.png)
+![alt text](image-5.png)
 
 - Crie uma tabela PROFESSOR que apresente apenas o primeiro e o último nome do professor;
 
