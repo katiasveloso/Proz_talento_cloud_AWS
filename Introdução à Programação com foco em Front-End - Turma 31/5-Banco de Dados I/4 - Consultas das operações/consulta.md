@@ -1,6 +1,6 @@
-## Linguagens formais de consulta a bancos de dados
+# Linguagens formais de consulta a bancos de dados
 
-# Álgebra relacional e Cálculo relacional
+## Álgebra relacional e Cálculo relacional
 
 
 ### Instruções do projeto
