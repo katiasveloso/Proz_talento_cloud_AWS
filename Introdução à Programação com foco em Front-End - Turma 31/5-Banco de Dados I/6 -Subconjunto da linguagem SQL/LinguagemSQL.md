@@ -20,6 +20,13 @@ Tabelas Criadas
 ### Resultado
 
 
+CREATE DATABASE escola;
+
+
+![Banco escola](image-4.png)
+
+
+
 CREATE TABLE aluno (
  id serial PRIMARY KEY,
  nome VARCHAR (50) not NULL,
@@ -32,5 +39,5 @@ CREATE TABLE aluno (
 
 ![resultado](image-3.png)
 
-![Banco escola](image-4.png)
+
 
