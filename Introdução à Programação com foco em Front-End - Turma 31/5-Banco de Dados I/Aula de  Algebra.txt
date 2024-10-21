@@ -10,7 +10,8 @@ Consultas: Select
 
 σ year = 2021 (movies)
 σ genre = 'Drama' (movies_genres)
-σ year ≤ 1990 ∧ rank ≥ 8 (movies)
+σ year ≤ 1990(movies)
+rank ≥ 8 (movies)
 
 σ year = 1968 (movies)
 σ rank < 5 (movies)
