@@ -105,7 +105,5 @@ AFTER DELETE ON departamento
 FOR EACH ROW
 EXECUTE FUNCTION atualizar_departamento_funcionario();
 
-
-
 ```
-![Resultado](image-2.png)
+![Resultado](image-3.png)
