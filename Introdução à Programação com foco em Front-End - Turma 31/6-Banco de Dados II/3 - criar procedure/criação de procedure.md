@@ -5,7 +5,7 @@ Uma empresa de vendas tem um banco de dados com informações sobre os seus prod
  Ela precisa criar um relatório que faça um levantamento diário da quantidade de produtos 
  comprados por dia. Para ajudar a empresa, crie um procedure para agilizar esse processo.
 
-´´´sql 
+```sql
 
 CREATE TABLE compras (
     idCompra SERIAL PRIMARY KEY,
@@ -14,17 +14,18 @@ CREATE TABLE compras (
     dataCompra DATE
 );
 
-´´´
-´´´sql 
+```
+```sql
 CREATE TABLE compras (
     idCompra SERIAL PRIMARY KEY,
     idProduto INT,
     quantidade INT,
     dataCompra DATE
 );
-´´´
 
-´´´sql 
+```
+
+```sql
 
 INSERT INTO compras (idProduto, quantidade, dataCompra) VALUES
     (1, 10, '2024-10-01'),
@@ -38,10 +39,10 @@ INSERT INTO compras (idProduto, quantidade, dataCompra) VALUES
     (1, 2, '2024-10-06'),
     (5, 11, '2024-10-06');
 
-´´´
+```
 ### Aqui está a procedure para calcular e inserir o total de produtos vendidos em cada data.
 
-´´´sql 
+```sql 
 CREATE OR REPLACE PROCEDURE gerar_relatorio_diario_compras()
 LANGUAGE plpgsql
 AS $$
@@ -63,6 +64,6 @@ $$;
 CALL gerar_relatorio_diario_compras();
 SELECT * FROM relatorio_diario_compras;
 
-´´´
+```
 
 ![Resultado](image.png)
