@@ -7,14 +7,15 @@ Bem-vindo a repositório do **Curso "Talento Cloud"** oferecido pela **AWS** em 
 ## 📂 Estrutura do Curso
 O curso "Talento Cloud" está estruturado em vários módulos que preparam você para uma carreira de sucesso na área Front-End. Abaixo está a estrutura do curso:
 
-01. [**Lógica Imperativa**]()
-02. [**Introdução à Programação**]()
-03. [**Preparação para HTML e CSS**]()
-04. [**HTML-CSS**]()
-05. [**JavaScript I**]()
-06. [**JavaScript II**]()
-07. [**Banco de Dados I**]()
-08. **Banco de Dados II**
+01. [**Lógica Imperativa**](https://github.com/katiasveloso/Proz_talento_cloud_AWS/tree/mainIntrodu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20com%20foco%20em%20Front-End%20-%20Turma%2031/1-L%C3%B3gica%20Imperativa)
+
+02. [**Preparação para HTML e CSS**](https://github.com/katiasveloso/Proz_talento_cloud_AWS/tree/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20com%20foco%20em%20Front-End%20-%20Turma%2031/2-Prepara%C3%A7%C3%A3o%20para%20HTML%20e%20CSS)
+
+03. [**JavaScript I**](https://github.com/katiasveloso/Proz_talento_cloud_AWS/tree/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20com%20foco%20em%20Front-End%20-%20Turma%2031/3-JavaScript%20I)
+04. [**JavaScript II**](https://github.com/katiasveloso/Proz_talento_cloud_AWS/tree/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20com%20foco%20em%20Front-End%20-%20Turma%2031/4-JavaScript%20II)
+05. [**Banco de Dados I**](https://github.com/katiasveloso/Proz_talento_cloud_AWS/tree/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20com%20foco%20em%20Front-End%20-%20Turma%2031/5-Banco%20de%20Dados%20I)
+06. [**Banco de Dados II**](https://github.com/katiasveloso/Proz_talento_cloud_AWS/tree/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20com%20foco%20em%20Front-End%20-%20Turma%2031/6-Banco%20de%20Dados%20II)
+07. [**Projeto final integrador**](https://github.com/JOAO-LEE/PETMatch)
 
 Cada módulo contém atividades práticas e projetos realizados a fim de aprimorar as habilidades em desenvolvimento Front-End.
 
